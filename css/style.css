@@ -1,0 +1,239 @@
+body {
+    background-color: #EEEDFF;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #413D8C;
+    
+    top: 0px;
+    left: 0px;
+
+    position: absolute;
+    width: 1160px;
+}
+
+.header #logo img {
+    width: 175px;
+}
+
+#tab-menu {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tab-name {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+    margin: 0px 20px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tab-name::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+
+    background-color: #FA7167;
+    position: absolute;
+    bottom: -5px;
+}
+
+.tab-name:hover::after {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.tab-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+
+    padding: 7.5px 10px;
+    margin: 0px 20px;
+
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tab-button:hover {
+    background-color: white;
+    border: 2px solid white;;
+    color: #413D8C;
+}
+
+/* CONTAINER */
+
+.container {
+    display: inline-flex;
+    margin-top: 81px;
+}
+
+/* Kiri */
+.cont-kiri {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding: 27.5px 40px;
+}
+
+.statistik img {
+    width: 600px;
+}
+
+.kalkulator {
+    padding: 15px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #dedede;
+    border-radius: 10px;
+
+    height: 230px;
+    width: 520px;
+    margin-left: 10px;
+}
+
+.kalkulator #title {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.kalkulator #alert img {
+    width: 520px;
+}
+
+#form {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.radio-button {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 50px 15px 0px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+#gender {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input#radio{
+    margin: 0px;
+    margin-right: 10px;
+}
+
+label#label {
+    width: 200px;
+}
+
+.data-diri {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 30px;
+}
+
+#data {
+    padding-top: 12px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#data div{
+    height: fit-content;
+}
+
+input.textbox {
+    height: 18px;
+    margin-left: 20px;
+    width: 255px;
+}
+
+input#box-usia.textbox{
+    margin: 0px;
+    margin-left: 80px;
+}
+
+input#box-bb.textbox{
+    margin: 0px;
+    margin-left: 29.5px;
+}
+
+input#box-tb.textbox{
+    margin: 0px;
+    margin-left: 24px;
+}
+
+/* Kanan */
+.cont-kanan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    width: 512px;
+    height: 400px;
+
+    padding: 35px 40px;
+}
+
+#sum {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+
+    margin: 10px 0px;
+
+    color: #ca8f10;
+}
+
+#illustration img {
+    margin: 20px 0px;
+}
+
+#explanation {
+    margin: 0px;
+    text-align: center;
+
+    word-wrap: break-word;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

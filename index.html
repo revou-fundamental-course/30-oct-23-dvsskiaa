@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200&family=Poppins:wght@200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Otomanopee One' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div id="logo">
+            <img src="./assets/logo.png">
+        </div>
+
+        <nav id="tab-menu">
+            <a class="tab-name" id="konsultasi" href="#"> Konsultasi </a>
+            <a class="tab-name" id="registrasi" href="#"> Registrasi </a>
+
+            <a class="tab-button" id="download" href="#"> Download App </a>
+        </nav>
+    </div>
+
+    <!-- CONTAINER -->
+    <section class="container">
+
+        <!-- Kiri -->
+        <div class="cont-kiri">
+            
+            <!-- Statistik -->
+            <div class="statistik">
+                <img src="./assets/stats.png">
+            </div>
+
+            <!-- Kalkulator -->
+            <div class="kalkulator">
+                <h1 id="title"> Kalkulator BMI </h1>
+
+                <div id="alert">
+                    <img src="./assets/alert.png">
+                </div>
+
+                <div id="form">
+                    <div class="radio-button">
+                        <div id="gender">
+                            <input type="radio" id="radio" value="laki-laki">
+                            <label for="male">   Laki-laki <br> </label>
+                        </div>
+
+                        <div id="gender">
+                            <input type="radio" id="radio" value="perempuan">
+                            <label for="female"> Perempuan </label>
+                        </div>
+                    </div>
+
+                    <div class="data-diri">
+                        <div id="data">
+                            <label for="textbox"> Usia </label>
+                            <input type="text" class="textbox" id="box-usia" placeholder="Usia">
+                        </div>
+                        
+                        <div id="data">
+                            <label for="textbox"> Berat Badan </label>
+                            <input type="text" class="textbox" id="box-bb" placeholder="Berat Badan (kg)">
+                        </div>
+
+                        <div id="data">
+                            <label for="textbox"> Tinggi Badan </label>
+                            <input type="text" class="textbox" id="box-tb" placeholder="Tinggi Badan (cm)">
+                        </div>
+
+                        <div>
+                            <input type="submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kanan -->
+        <div class="cont-kanan">
+            <p id="sum"> 27.4 </p>
+            
+            <div id="sum-image">
+                <img src="./assets/bb-lebih.png">
+            </div>
+
+            <div id="illustration">
+                <img src="./assets/illustration.png">
+            </div>
+
+            <p id="explanation"> Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalori makanan yang dikonsumsi dan berolahraga secara rutin. Jika BMI Anda dalam kategori ini, maka Anda dianjurkan untuk menurunkan berat badan hingga batas normal. </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
